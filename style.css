@@ -1,1 +1,66 @@
+html{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
 
+body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.solid{
+    border-top: 4px solid #000
+}
+
+.excerpt{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.author{
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.image{
+    max-width: 600px;
+}
+
+blockquote{
+    font-size: 20px;
+    font-style: italic;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    border-left: 6px solid #333;
+    padding-left: 5px;
+}
+
+.image{
+    max-width: 100%; 
+    max-height: 100%; 
+    display: block; 
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    body {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 750px) {
+    body {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    blockquote {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
